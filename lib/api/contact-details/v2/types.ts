@@ -7,6 +7,7 @@ export type ContactDetail = {
   recordValidUntil: string;
   isActive: boolean;
   createdBy: CreatedBy;
+  versionNumber?: number;
 };
 
 export type ContactDetails = {
